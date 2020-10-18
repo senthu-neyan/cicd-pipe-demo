@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/justmeandopensource/playjenkins.git'
+        git 'git@github.com:senthu-neyan/cicd-pipe-demo.git'
       }
     }
 
